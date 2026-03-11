@@ -1,0 +1,13 @@
+name: sks workflow
+on: 
+  workflow_dispatch:
+jobs:
+  my_first_job:
+    name: My first job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greeting
+        run: echo "Hello this is my first Github Action Workflow Pipeline"
+        
+  
+  
